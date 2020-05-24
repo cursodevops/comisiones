@@ -1,16 +1,8 @@
 package com.curso.integracioncontinua;
 
-import java.text.DateFormat;
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
-import java.util.Locale;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -23,7 +15,9 @@ public class HomeController {
 	public static String VENDEDOR="Vendedor";
 	public static String ENCARGADO="Encargado";
 	public static String HOME="home";
-	
+	public static int IMPORTE_VENTAS_MES_TRAMO_1=1000;
+	public static int IMPORTE_VENTAS_MES_TRAMO_2=1500;
+	public static int SALARIO=1000;
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView home() {
 		
