@@ -52,7 +52,7 @@
 			<h4>Tipo:${criterios.tipoSeleccionado }</h4>
 			<h4>Ventas mes:${criterios.ventasMes }</h4>
 			<h4>Horas extras:${criterios.horasExtras }</h4>
-			<h1 class="text-success">Salario NETO:${salario}</h1>
+			<h1 class="text-success">Salario :${salario}</h1>
 		</div>
 
 	</div>
