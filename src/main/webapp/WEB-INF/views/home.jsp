@@ -19,7 +19,7 @@
 				<div class="form-group">
 					<label for="email">Tipo:</label>
 					<sp:select id="tipo" path="tipoSeleccionado">
-						<sp:option value="0">Selecciona tipo de vendedor....</sp:option>
+						<sp:option value="0">Selecciona tipo de vendedor:</sp:option>
 						<sp:options items="${comisiones.tiposVendedor}"></sp:options>
 					</sp:select>
 				</div>
