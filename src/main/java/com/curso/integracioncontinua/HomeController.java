@@ -17,7 +17,7 @@ public class HomeController {
 	public static String HOME="home";
 	public static int IMPORTE_VENTAS_MES_TRAMO_1=1000;
 	public static int IMPORTE_VENTAS_MES_TRAMO_2=1500;
-	public static int SALARIO=1500;
+	public static int SALARIO=1501;
 	public static int SALARIO1=2000;
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
