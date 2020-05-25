@@ -18,7 +18,8 @@ public class HomeController {
 	public static int IMPORTE_VENTAS_MES_TRAMO_1=1000;
 	public static int IMPORTE_VENTAS_MES_TRAMO_2=1500;
 	public static int SALARIO=1000;
-	public static int SALARIO1=1000;
+	public static int SALARIO1=1500;
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView home() {
 		
