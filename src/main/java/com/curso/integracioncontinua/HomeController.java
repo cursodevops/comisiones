@@ -41,21 +41,21 @@ public class HomeController {
 	@RequestMapping(value = "calcular", method = RequestMethod.POST)
 	public ModelAndView calcular(Comisiones comisiones) {
 		
-		int salario=HomeController.SALARIO;
+		int salarios=HomeController.SALARIO;
 		if(comisiones.getTipoSeleccionado().equals(HomeController.ENCARGADO))
-			salario=HomeController.SALARIO1;
+			salarios=HomeController.SALARIO1;
 		if(comisiones.getVentasMes()>=HomeController.IMPORTE_VENTAS_MES_TRAMO_1)
-			salario+=100;
+			salarios+=100;
 		if(comisiones.getVentasMes()>=HomeController.IMPORTE_VENTAS_MES_TRAMO_2)
-			salario+=100;
+			salarios+=100;
 		
 		
-		salario+=comisiones.getHorasExtras()*20;
+		salarios+=comisiones.getHorasExtras()*20;
 		
 		
 		ModelAndView modelAndView=home();
 		modelAndView.addObject("criterios", comisiones);
-		modelAndView.addObject("salario", salario);
+		modelAndView.addObject("salario", salarios);
 		return modelAndView;
 	}
 	
