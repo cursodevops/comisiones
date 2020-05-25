@@ -19,7 +19,7 @@ public class HomeControllerTest {
 		HomeController homeController= new HomeController();
 		Comisiones comisiones= new Comisiones();
 		comisiones.setTipoSeleccionado(HomeController.VENDEDOR);
-		comisiones.setVentasMes(1251);
+		comisiones.setVentasMes(1250);
 		comisiones.setHorasExtras(5);
 		assertEquals(1200, homeController.calcular(comisiones).getModel().get("salario"));
 	}
