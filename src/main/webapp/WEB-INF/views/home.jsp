@@ -13,9 +13,9 @@
 <body>
 	<div class="container">
 
-		<h1>Comisiones de ventas de mi empresa FGC</h1>
 
 
+		<h1>Comisiones de ventassss</h1>
 
 		<div>
 			<sp:form action="calcular" method="POST" modelAttribute="comisiones">
