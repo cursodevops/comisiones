@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 	public static String VENDEDOR="Vendedor";
-	public static String ENCARGADO="Encargado";
+	public static String ENCARGADO="Encargado"; 
 	public static String HOME="home";
 	public static int IMPORTE_VENTAS_MES_TRAMO_1=1000;
 	public static int IMPORTE_VENTAS_MES_TRAMO_2=1500;
