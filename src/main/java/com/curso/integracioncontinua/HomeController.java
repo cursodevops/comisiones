@@ -30,7 +30,6 @@ public class HomeController {
 		comisiones.setTiposVendedor(new HashMap<String, String>());
 		comisiones.getTiposVendedor().put(HomeController.VENDEDOR,HomeController.VENDEDOR);
 		comisiones.getTiposVendedor().put(HomeController.ENCARGADO,HomeController.ENCARGADO);
-		comisiones.getTiposVendedor().put(HomeController.PRACTICAS,HomeController.PRACTICAS);
 		comisiones.setVentasMes(0);
 		comisiones.setHorasExtras(0);
 		
@@ -47,8 +46,7 @@ public class HomeController {
 		int salario=HomeController.SALARIO;
 		if(comisiones.getTipoSeleccionado().equals(HomeController.ENCARGADO))
 			salario=HomeController.SALARIO1;
-		if(comisiones.getTipoSeleccionado().equals(HomeController.PRACTICAS))
-			salario=HomeController.SALARIO_0;
+		
 		if(comisiones.getVentasMes()>=HomeController.IMPORTE_VENTAS_MES_TRAMO_1)
 			salario+=100;
 		if(comisiones.getVentasMes()>=HomeController.IMPORTE_VENTAS_MES_TRAMO_2)
