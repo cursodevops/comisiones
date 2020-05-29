@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
-
+ 
 public class HomeControllerTest {
 	
 
@@ -21,7 +21,9 @@ public class HomeControllerTest {
 		comisiones.setTipoSeleccionado(HomeController.VENDEDOR);
 		comisiones.setVentasMes(1250);
 		comisiones.setHorasExtras(5);
-		assertEquals(1200, homeController.calcular(comisiones).getModel().get("salario"));
+		int salario=HomeController.SALARIO+100+100;
+		
+		assertEquals(salario, homeController.calcular(comisiones).getModel().get("salario"));
 	}
 
 }
