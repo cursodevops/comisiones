@@ -15,9 +15,9 @@ public class HomeController {
 	public static String VENDEDOR="Vendedor";
 	public static String ENCARGADO="Encargado";
 	public static String HOME="home";
-	public static int IMPORTE_VENTAS_MES_TRAMO_1=1000;
+	public static int IMPORTE_VENTAS_MES_TRAMO_1=1200;
 	public static int IMPORTE_VENTAS_MES_TRAMO_2=1500;
-	public static int SALARIO=1500;
+	public static int SALARIO=1100;
 	public static int SALARIO1=2000;
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
