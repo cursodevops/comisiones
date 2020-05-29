@@ -14,7 +14,7 @@
 <body>
 	<div class="container">
 
-		<h1>Comisiones de ventas profe</h1>
+		<h1>Comisiones de ventas IP</h1>
 
 
 		<div>
