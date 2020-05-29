@@ -12,7 +12,7 @@
 	crossorigin="anonymous">
 <body>
 	<div class="container">
-		<h1>Comisiones de ventas empresa ATA</h1>
+		<h1>Comisiones de ventas ATA</h1>
 
 		<div>
 			<sp:form action="calcular" method="POST" modelAttribute="comisiones">
