@@ -12,13 +12,13 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class HomeController {
-	public static String VENDEDOR="Vendedor";
-	public static String ENCARGADO="Encargado";
-	public static String HOME="home";
-	public static int IMPORTE_VENTAS_MES_TRAMO_1=1200;
-	public static int IMPORTE_VENTAS_MES_TRAMO_2=1500;
-	public static int SALARIO=1000;
-	public static int SALARIO1=2000;
+	public static final String VENDEDOR="Vendedor";
+	public static final String ENCARGADO="Encargado";
+	public static final String HOME="home";
+	public static final int IMPORTE_VENTAS_MES_TRAMO_1=1200;
+	public static final int IMPORTE_VENTAS_MES_TRAMO_2=1500;
+	public static final int SALARIO=1000;
+	public static final int SALARIO1=2000;
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView home() {
