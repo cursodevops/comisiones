@@ -12,6 +12,9 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class HomeController {
+	
+	int a;
+	
 	public static final String VENDEDOR="Vendedor";
 	public static  final String ENCARGADO="Encargado"; 
 	public static final  String HOME="home";
@@ -22,7 +25,7 @@ public class HomeController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView home() {
-		
+		//TODO sfdgfdd
 		Comisiones comisiones= new Comisiones();
 		
 		comisiones.setTiposVendedor(new HashMap<String, String>());
